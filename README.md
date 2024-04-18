@@ -44,9 +44,11 @@ Amazon EC2 Auto Scaling ensures that your group has this many instances.
 
 
 Q) What is a bastion host?
+
 --> bastion host is a ec2 instance in public subnet of a particular VPC  which acts as a mediator to ssh into the private ec2 instances
 i.e instances present in private subnet can't be ssh'ed directly you need to be in the bastion host ec2 instance and then ssh into ec2 
 instances present in the private subnet
+
 local ec2 instances  --> bastion host(containinfg pem file) --> ec2 instances in private subnet 
 
 
